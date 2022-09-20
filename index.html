@@ -45,11 +45,14 @@ body {
   background: #0003;
   top: 0px;
 }
-#content div {
+#content a {
+  display: block;
   width: 160px;
   height: 60px;
   margin: 6px 0px;
   padding: 0px 20px;
+  color: #000a;
+  text-decoration: none;
   background: #fff2;
   box-shadow: -1px 2px 2px #0002;
   transition: background .6s;
@@ -57,7 +60,7 @@ body {
   line-height: 60px;
   font-weight: bolder;
 }
-#content div:hover {
+#content a:hover {
   background: #fff6;
 }
 #bar {
@@ -69,7 +72,6 @@ body {
   margin: 0px 6px 0px 2px;
   width: 4px;
   background: #0009;
-  color: #000a;
   transition: margin .6s;
   -webkit-transition: margin .6s;
 }
@@ -92,8 +94,8 @@ body {
 	</script>
 <div id="desk" onClick="swit()">
   <div id="content"> <span style="display:block;width:200px;height:80px;background:#0003;"></span>
-    <div>ASP</div>
-    <div>PHP</div>
+    <a href="test.asp">ASP</a>
+    <a href="">PHP</a>
   </div>
   <div id="bar"> </div>
 </div>
