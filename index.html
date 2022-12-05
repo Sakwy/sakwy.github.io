@@ -1,148 +1,47 @@
-<<<<<<< Updated upstream
 <!DOCTYPE HTML>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>SKUYAZLU</title>
-<style>
-body {
-  background: url("bg.jpg") no-repeat fixed rgb(60,60,70);
-  background-size: 100% auto;
-}
-#texts {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0,0,0,.6);
-  padding: 0.4em 2em;
-  border-top-right-radius: 5em;
-  border-bottom-left-radius: 5em;
-  border-bottom: 5px solid rgba(255,255,255,.6);
-}
-#up {
-  font-size: 5em;
-  line-height: 90px;
-  text-decoration: underline;
-  color: rgba(255,255,255,.6);
-}
-#down {
-  float: right;
-  font-size: 2em;
-  color: rgba(255,255,255,.4);
-}
-#desk {
-  position: fixed;
-  transition: left .6s;
-  -webkit-transtion: left .6s;
-  height: 100%;
-  width: 212px;
-  top: 0px;
-  left: -200px;
-}
-#content {
-  height: 100%;
-  width: 200px;
-  background: #0003;
-  top: 0px;
-}
-#content a {
-  display: block;
-  width: 160px;
-  height: 60px;
-  margin: 6px 0px;
-  padding: 0px 20px;
-  color: #000a;
-  text-decoration: none;
-  background: #fff2;
-  box-shadow: -1px 2px 2px #0002;
-  transition: background .6s;
-  -webkit-transition: background .6s;
-  line-height: 60px;
-  font-weight: bolder;
-}
-#content a:hover {
-  background: #fff6;
-}
-#bar {
-  border-radius: 2px;
-  top: 40%;
-  right: 0px;
-  position: absolute;
-  height: 20%;
-  margin: 0px 6px 0px 2px;
-  width: 4px;
-  background: #0009;
-  transition: margin .6s;
-  -webkit-transition: margin .6s;
-}
-#bar:hover {
-  margin: 0px 2px 0px 6px;
-}
-</style>
-</head>
-<body>
-<script>
-		var swit = function(){
-      var desk= document.getElementById("desk");
-      console.log(desk.style.left)
-      if(desk.style.left=='0px'){
-          desk.style.left='-200px';
-      }else{
-        desk.style.left='0px';
-      }
-	  }
-	</script>
-<div id="desk" onClick="swit()">
-  <div id="content"> <span style="display:block;width:200px;height:80px;background:#0003;"></span>
-    <a href="test.asp">ASP</a>
-    <a href="">PHP</a>
-  </div>
-  <div id="bar"> </div>
-</div>
-<div id="texts"><span id="up">SKUYAZLU</span><br />
-  <span id="down">WAIFE FOREVER</span></div>
-</body>
-=======
-<!DOCTYPE HTML>
-<html>
-  <head>
   <meta charset="utf-8">
   <title>SKUYAZLU</title>
   <style>
-  body {
-    background: url("bg.jpg") no-repeat fixed rgb(60,60,70);
-    background-size: 100% auto;
-  }
-  #texts {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0,.6);
-    padding: 0.4em 2em;
-    border-top-right-radius: 5em;
-    border-bottom-left-radius: 5em;
-    border-bottom: 5px solid rgba(255,255,255,.6);
-  }
-  #up {
-    font-size: 5em;
-    line-height: 90px;
-    text-decoration: underline;
-    color: rgba(255,255,255,.6);
-  }
-  #down {
-    float: right;
-    font-size: 2em;
-    color: rgba(255,255,255,.4);
-  }
+    body {
+      background: url("bg.jpg") no-repeat fixed rgb(60, 60, 70);
+      background-size: 100% auto;
+    }
+
+    #texts {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, .6);
+      padding: 0.4em 2em;
+      border-top-right-radius: 5em;
+      border-bottom-left-radius: 5em;
+      border-bottom: 5px solid rgba(255, 255, 255, .6);
+    }
+
+    #up {
+      font-size: 5em;
+      line-height: 90px;
+      text-decoration: underline;
+      color: rgba(255, 255, 255, .6);
+    }
+
+    #down {
+      float: right;
+      font-size: 2em;
+      color: rgba(255, 255, 255, .4);
+    }
   </style>
-  </head>
-  <body>
+</head>
+
+<body>
   <div id="texts">
     <span id="up">SKUYAZLU</span><br />
     <span id="down">WAIFE FOREVER</span>
   </div>
 </body>
->>>>>>> Stashed changes
+
 </html>
